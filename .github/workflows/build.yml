@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-      - main
+      - kea-main
       - 'release/**'
   pull_request:
     paths-ignore:
@@ -12,7 +12,7 @@ on:
       - 'CODEOWNERS'
       - 'LICENSE'
     branches:
-      - main
+      - kea-main
       - 'release/**'
 
 jobs:
